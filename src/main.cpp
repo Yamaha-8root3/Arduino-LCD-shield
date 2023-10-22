@@ -20,6 +20,8 @@ void loop() {
   if (buttonValue >= 700 && buttonValue < 1000) {
     lcd.clear();
     lcd.print("SELECT");
+    lcd.blink();
+
     delay(30);
   } else if (buttonValue >= 500 && buttonValue < 700) {
     lcd.clear();
